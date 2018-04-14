@@ -1,0 +1,55 @@
+@media (max-width: 640px) {
+  #outer {
+    min-width: 100% !important;
+    width: auto !important;
+  }
+}
+
+/*disable auto-zoom on mobile*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  select,
+  textarea,
+  input {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: lightgrey;
+}
+
+#outer {
+  padding-top: 50px;
+  width: 70%;
+  text-align: center;
+  min-width: 640px;
+}
+
+#toFind {
+  border-radius: 10px;
+  text-align: center;
+}
+
+#buttons {
+  padding: 30px;
+}
+
+#wiki {
+  text-align: left;
+  display: none;
+}
+
+#results {
+  text-align: left;
+}
+
+#results-outer {
+  border: 0px;
+  opacity: 1;
+  display: none;
+}
+
+#jaws {
+  font-size: 20px;
+}

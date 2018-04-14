@@ -1,0 +1,22 @@
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <div class="container" id="outer">
+
+    <p class="panel panel-default" id="jaws"> Just Another Wiki Searcher</p>
+    <div class="search-container" id="search">
+      <input type="text" id="toFind" placeholder="Search here"/>
+    </div>
+
+    <div class="btn-group" role="toolbar" id="buttons">
+      <div class="btn btn-primary" role="group" title="Push to close" onclick="search()">Push it</div>
+      <div class="btn btn-info" role="group" onclick="rndArticle()" title="Random article">?</div>
+      <div class="btn btn-warning" id="clear" title="Clear">X</div>
+    </div>
+
+    <div class="panel panel-default" id="results-outer">
+      <ul id="results"></ul>
+    </div>
+    
+    <div class="panel panel-default" id="wiki"></div>
+  </div>
+</body>

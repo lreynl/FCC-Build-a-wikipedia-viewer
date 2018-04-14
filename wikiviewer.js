@@ -8,6 +8,8 @@ $(function() {
 });
 
 $("#clear").click(function() {
+  $("#wiki").slideUp("slow");
+  $("#results-outer").slideUp("slow");
   $("#toFind").val('');
   $("#toFind").focus(); //put cursor in box
 });
